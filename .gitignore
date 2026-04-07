@@ -1,1 +1,31 @@
-.idea
+# ==================== Node ====================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ==================== Vite / Build ====================
+dist/
+dist-ssr/
+*.local
+
+# ==================== TypeScript ====================
+*.tsbuildinfo
+
+# ==================== Capacitor 자동 생성 파일 ====================
+# android/.gitignore 와 ios/.gitignore 에서 누락된 항목만 추가
+# (cap sync 실행마다 덮어쓰이므로 커밋 불필요)
+android/app/capacitor.build.gradle
+android/capacitor.settings.gradle
+ios/App/CapApp-SPM/
+
+# ==================== OS ====================
+.DS_Store
+Thumbs.db
+
+# ==================== Editor ====================
+.vscode/
+.idea/
+*.swp
+*.swo
+.report
